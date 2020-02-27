@@ -1,6 +1,6 @@
 import mongoose = require("mongoose");
 
-const uri: string = "";
+const uri: string = "mongodb+srv://admin:<password>@cluster0-jeunf.azure.mongodb.net/test?retryWrites=true&w=majority";
 
 mongoose.connect(uri,{ useNewUrlParser:true, useUnifiedTopology: true }, (err: any) => {
     if(err){
