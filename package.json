@@ -23,7 +23,11 @@
     "typescript": "^3.8.2"
   },
   "dependencies": {
+    "@types/dotenv": "^8.2.0",
     "@types/mongoose": "^5.7.1",
+    "@types/node": "^13.7.6",
+    "dotenv": "^8.2.0",
+    "env-var": "^6.0.3",
     "mongoose": "^5.9.2"
   }
 }

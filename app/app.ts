@@ -1,7 +1,17 @@
-import {Casa} from "./Casa"
-import {Cliente} from "./Cliente"
+import {Cliente, getall} from "./Cliente"
 
-const casa = new Casa(3,2);
 const cliente = new Cliente();
 
+cliente.nombre = "IMIX";
+cliente.edad = 32;
+cliente.carrera = "IQ"
 
+cliente.save((err:any) => {
+    if(err){
+        console.log(err)
+    }else{
+        console.log(cliente)
+    }
+})
+
+getall();
